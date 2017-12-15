@@ -1,6 +1,3 @@
-﻿
-
-
 #include "diff.h"
 #include <GU/GU_Detail.h>
 #include <GEO/GEO_Hedge.h>
@@ -24,8 +21,6 @@
 #include <iostream>
 #include <algorithm>	
 #include <mesh.h>
-
-
 
 static PRM_Name scalarfield("Field", "Field");
 
