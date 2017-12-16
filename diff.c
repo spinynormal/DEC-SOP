@@ -1,26 +1,5 @@
 #include "diff.h"
-#include <GU/GU_Detail.h>
-#include <GEO/GEO_Hedge.h>
-#include <GEO/GEO_HedgeInterface.h>
-#include <SYS/SYS_Math.h>
-#include <OP/OP_Operator.h>
-#include <OP/OP_OperatorTable.h>
-#include <OP/OP_Node.h>
-#include <UT/UT_DSOVersion.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <cstdio>
-#include <PRM/PRM_Template.h>
-#include <OP/OP_AutoLockInputs.h>
-#include <GEO/GEO_Point.h>
-#include <GEO/GEO_PrimPoly.h>
-#include <PRM/PRM_Include.h>
-#include <iterator>
-#include <vector>
-#include <iostream>
-#include <algorithm>	
-#include <mesh.h>
+#include HDK STUFF
 
 static PRM_Name scalarfield("Field", "Field");
 
