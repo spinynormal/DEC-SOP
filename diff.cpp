@@ -65,7 +65,7 @@ DIFF_SOP::fielchoice()
 
 
 //________________________________________________________________________________________________________________________ _ VectorDecomp
-void  DIFF_SOP::Laplacian(GA_ROHandleV3 vectorfield, OP_Context &context) {
+void  DIFF_SOP::Vectordecomposition(GA_ROHandleV3 vectorfield, OP_Context &context) {
 	//http://courses.cms.caltech.edu/cs177/hmw/Hmw3.pdf
 
 	GA_Attribute *vec1 = gdp->addFloatTuple(GA_ATTRIB_PRIMITIVE, "a", 3);
@@ -560,9 +560,6 @@ fpreal DIFF_SOP::cotangent(GEO_Hedge halfedge) {
 
 
 }
-//_____________________________________________________________________________________________________________________________Vectorsource
-
-
 
 //_____________________________________________________________________________________________________________________________Gradient
 
@@ -622,8 +619,6 @@ void DIFF_SOP::divergence(GA_ROHandleV3 vectorfield, GA_Offset primOffset) {
 		divhandle.add(*it, t);
 	}
 }
-//_____________________________________________________________________________________________________________________________contangent lapl
-
 
 //__________________________________________________________________________________________________________________________COOK
 OP_ERROR
@@ -677,7 +672,7 @@ DIFF_SOP::cookMySop(OP_Context &context) {
 		else { gdp->destroyAttribute(GA_ATTRIB_POINT, "Divergece", 0); }
 
 		if (fields == DIFF_SOP_hod) {
-			Laplacian(vectorfield, context);
+			Vectordecomposition(vectorfield, context);
 		}
 		else { gdp->destroyAttribute(GA_ATTRIB_POINT, "HodgeDecomp", 0); }
 	}
