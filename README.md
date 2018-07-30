@@ -1,7 +1,7 @@
 # DEC-SOP
 
 Differential Operator,
-Vector Field Decomposition, Possion Equation 0-form
+Vector Field Decomposition
 
 not finished yet.
 
