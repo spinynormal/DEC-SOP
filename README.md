@@ -1,6 +1,8 @@
-# differential-SOP
-{Grad,Div,Laplacian,Vectorfielddecomposition,Vectorfieldsource}  
-for Triangulated surface,
+# DEC-SOP
+
+Differential Operator
+Vector Field Decomposition 
+Possion Equation 0-form
 
 not finished yet.
 
