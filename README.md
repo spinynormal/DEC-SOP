@@ -5,4 +5,4 @@ for Triangulated surface,
 not finished yet.
 
 
-![alt text](https://gfycat.com/gifs/detail/EasygoingAccomplishedHermitcrab)
+![alt text](https://thumbs.gfycat.com/EasygoingAccomplishedHermitcrab-size_restricted.gif)
