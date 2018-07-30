@@ -1,8 +1,7 @@
 # DEC-SOP
 
-Differential Operator
-Vector Field Decomposition 
-Possion Equation 0-form
+Differential Operator,
+Vector Field Decomposition, Possion Equation 0-form
 
 not finished yet.
 
